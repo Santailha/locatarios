@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+}
+
+body {
+    padding: 0 50px;
+    background-color: #3d357e;
+}
+
+.foto {
+    width: 500px;
+}
+
+.logo {
+    text-align: center; 
+}
