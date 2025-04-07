@@ -3,8 +3,7 @@
 }
 
 body {
-    padding: 0 50px;
-    background-color: #3d357e;
+    background-color:#3d357e;
 }
 
 .foto {
@@ -13,4 +12,20 @@ body {
 
 .logo {
     text-align: center; 
+}   
+@media (max-width: 768px) {
+    body {
+        padding: 0 20px;
+    }
+    .foto {
+        width: 100%;
+        max-width: 500px;  
+    }
+}
+
+@media (max-width: 480px) {
+    .foto {
+        width: 100%;
+        max-width: 500px; 
+    }
 }
